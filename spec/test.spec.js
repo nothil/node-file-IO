@@ -10,7 +10,7 @@ describe("something", function(){
         spyOn(visitor_file, 'load');
     });
 
-    it("should do something", function(){
+    it("should save vistors information", function(){
         visitor_file.save();
         expect(visitor_file.save).toHaveBeenCalled();
        
